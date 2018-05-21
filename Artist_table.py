@@ -61,7 +61,6 @@ def insert_Artist():
     id_pos = int(retrieve_last_Artists_id())+1
     id_pos = str(id_pos)
     query = "INSERT INTO "+concat+"("+field1+","+field2+")"+" values("+id_pos+","+artist+");"
-    id_pos = str(int(id_pos)+1)
     cur.execute(query)
     print ("\nInsercion hecha con exito\n")
     conn.commit()
