@@ -2,6 +2,7 @@ import psycopg2
 from faker import Faker
 fake = Faker()
 from random import randint
+import random
 count =5
 
 def retrieve_Last_InvoiceId():
@@ -67,9 +68,23 @@ def Insert_sale(count):
     artist = fake.name()
     artist = "'"+artist+"'"
     cities = ['Stuttgart','Palooza','Guatemala City']
-    city_pick = randint(0,len(cities))
+    city_pick = randint(0,len(cities)-1)
     city_pos = "'"+cities[city_pick]+"'"
-    query = "INSERT INTO "+concat+"("+field1+","+field2+","+field3+","+field4+","+field5+","+field6+","+field7+","+field8+","+field9+")"+" values("+id_pos+","+cus_pos+","+date+","+adress+","+city_pos+",'8210 111 ST NW','Germany','70174', 1.98);"
+    Bill1 = str(randint(1111,9999))
+    Bill2 = str(randint(111,999))
+    Bill4 = ['AZ','NW','CA','SSR']
+    bill_pick = randint(0,len(Bill4)-1)
+    Bill3 = 'ST '+Bill4[bill_pick]
+    string_of_bill1 = "'"+Bill1+"'"
+    string_of_bill2 = "'"+Bill2+"'"
+    string_of_bill3 = "'"+Bill3+"'"
+    final_bill = string_of_bill1+string_of_bill2+string_of_bill3
+    country_list = ['Germany','Guatemala','France','England','USA']
+    country_pick = randint(0,len(country_list)-1)
+    country = "'"+country_list[country_pick]+"'"
+    postal_code = "'"+str(randint(11111,99999))+"'"
+    total = "'"+str(random.uniform(1,20))+"'"
+    query = "INSERT INTO "+concat+"("+field1+","+field2+","+field3+","+field4+","+field5+","+field6+","+field7+","+field8+","+field9+")"+" values("+id_pos+","+cus_pos+","+date+","+adress+","+city_pos+","+final_bill+","+country+","+postal_code+","+total+");"
     cur.execute(query)
     print ("\nInsercion hecha con exito\n")
     conn.commit()
@@ -83,5 +98,5 @@ def multi_insert(veces):
         if(count>=30):
             count = 1
         i = i+1
-multi_insert(10)
+multi_insert(40)
 
