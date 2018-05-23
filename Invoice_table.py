@@ -54,7 +54,7 @@ def Insert_sale(count):
     id_invoice = retrieve_Last_InvoiceId()
     customer_id = int(retrieve_Last_CustomerId())
     cus_pos = str(randint(1,customer_id ))
-    count = count +1
+    dia = count
     dia = str(count)
    # if(int(dia) >= 30):
     #    count = 1
@@ -89,14 +89,22 @@ def Insert_sale(count):
     print ("\nInsercion hecha con exito\n")
     conn.commit()
     conn.close()
+
+
 def multi_insert(veces):
     i =0
+    cambio_dia = randint(2,8)
+    contador_dia = 0
     count =5
     while(i<veces):
         Insert_sale(count)
-        count = count+1
-        if(count>=30):
+        contador_dia = contador_dia+1
+        if(contador_dia == cambio_dia):
+            count = count+1
+            contador_dia = 0
+            cambio_dia = randint(2,8)
+        if(count>=31):
             count = 1
         i = i+1
-multi_insert(40)
+multi_insert(100)
 
