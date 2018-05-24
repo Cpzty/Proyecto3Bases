@@ -92,10 +92,10 @@ def Insert_sale(count):
 
 
 def multi_insert(veces):
-    i =0
+    i = 0
     cambio_dia = randint(2,8)
     contador_dia = 0
-    count =5
+    count = 5
     while(i<veces):
         Insert_sale(count)
         contador_dia = contador_dia+1
@@ -107,4 +107,3 @@ def multi_insert(veces):
             count = 1
         i = i+1
 multi_insert(100)
-
