@@ -70,8 +70,8 @@ def Insert_sale(count):
     cities = ['Stuttgart','Palooza','Guatemala City']
     city_pick = randint(0,len(cities)-1)
     city_pos = "'"+cities[city_pick]+"'"
-    Bill1 = str(randint(1111,9999))
-    Bill2 = str(randint(111,999))
+    Bill1 = str(randint(1111,9998))
+    Bill2 = str(randint(111,998))
     Bill4 = ['AZ','NW','CA','SSR']
     bill_pick = randint(0,len(Bill4)-1)
     Bill3 = 'ST '+Bill4[bill_pick]
@@ -82,18 +82,11 @@ def Insert_sale(count):
     country_list = ['Germany','Guatemala','France','England','USA']
     country_pick = randint(0,len(country_list)-1)
     country = "'"+country_list[country_pick]+"'"
-    postal_code = "'"+str(randint(11111,99999))+"'"
+    postal_code = "'"+str(randint(11111,99998))+"'"
     total = "'"+str(random.uniform(1,20))+"'"
     query = "INSERT INTO "+concat+"("+field1+","+field2+","+field3+","+field4+","+field5+","+field6+","+field7+","+field8+","+field9+")"+" values("+id_pos+","+cus_pos+","+date+","+adress+","+city_pos+","+final_bill+","+country+","+postal_code+","+total+");"
-    try:
-        cur.execute(query)
-        print ("\nInsercion hecha con exito\n")
-    except psycopg2.Error as e:
-        print "Unable to connect!"
-        print e.pgerror
-        print e.diag.message_detail
-        sys.exit(1)
-
+    cur.execute(query)
+    print ("\nInsercion hecha con exito\n")
     conn.commit()
     conn.close()
 
@@ -102,7 +95,7 @@ def multi_insert(veces):
     i = 0
     cambio_dia = randint(2,8)
     contador_dia = 0
-    count = 5
+    count =5
     while(i<veces):
         Insert_sale(count)
         contador_dia = contador_dia+1
@@ -114,3 +107,4 @@ def multi_insert(veces):
             count = 1
         i = i+1
 multi_insert(100)
+

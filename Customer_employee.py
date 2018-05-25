@@ -4,7 +4,7 @@ from faker import Faker
 fake = Faker()
 from random import randint
 import random
-
+import string
 def retrieve_last_employee():
     conn = psycopg2.connect("dbname=kappatalism user=postgres host =localhost")
     cur = conn.cursor()
@@ -54,7 +54,42 @@ def insert_employees():
     else:
         reports_to = 6
     reports_to = "'"+str(reports_to)+"'"
-    query = "INSERT INTO "+concat+"("+field1+","+field2+","+field3+","+field4+","+field5+","+field6+","+field7+","+field8+","+field9+","+field10+","+field11+","+field12+","+field13+","+field14+","+field15+")"+" values("+employee_pos+","+last_name+","+first_name+","+final_title+","+reports_to+",'1980-02-20','2004-05-05','923 7 st na','Englang','az','Canada','t1h 1y8','1(403)467-3351','1(780)836-9543','seth@gmail.com');"
+    birth_year = str(randint(1960,1990))
+    birth_month = str(randint(1,12))
+    birth_day = str(randint(1,31))
+    whole_birth = "'"+birth_year+"-"+birth_month+"-"+birth_day+"'"
+    employed_year = str(randint(2008,2017))
+    employed_month = str(randint(1,11))
+    employed_day = str(randint(1,30))
+    whole_employed = "'"+employed_year+"-"+employed_month+"-"+employed_day+"'"
+    adress = fake.address()
+    adress = "'"+adress+"'"
+    cities = ['Stuttgart','Palooza','Guatemala City']
+    city_pick = randint(0,len(cities)-1)
+    city_pos = "'"+cities[city_pick]+"'"
+    states = ['az','ar','kl','ta']
+    state_pick = randint(0,len(states)-1)
+    state_pos = "'"+states[state_pick]+"'"
+    country_list = ['Germany','Guatemala','France','England','USA']
+    country_pick = randint(0,len(country_list)-1)
+    country = "'"+country_list[country_pick]+"'"
+    postal_letter1 = str(random.choice(string.ascii_letters))
+    postal_letter2 = str(randint(1,8))
+    postal_letter3= str(random.choice(string.ascii_letters))
+    postal_letter4 = str(random.choice(string.ascii_letters))
+    postal_letter5 = str(randint(1,8))
+    postal_letter6= str(random.choice(string.ascii_letters))
+    postal_code = "'"+postal_letter1+postal_letter2+postal_letter3+" "+postal_letter4+postal_letter5+postal_letter6+"'"
+    phone_field1 = "+502 "
+    phone_field2 = str(randint(11111111,99999998))
+    phone = "'"+phone_field1+phone_field2+"'"
+    fax_field1 = "1(780)"
+    fax_field2 = str(randint(100,998))
+    fax_field3 = str(randint(1000,9998))
+    fax = "'"+fax_field1+fax_field2+"-"+fax_field3+"'"
+    name = fake.name().replace(" ","")
+    email= "'"+name+"@gmail.com"+"'"
+    query = "INSERT INTO "+concat+"("+field1+","+field2+","+field3+","+field4+","+field5+","+field6+","+field7+","+field8+","+field9+","+field10+","+field11+","+field12+","+field13+","+field14+","+field15+")"+" values("+employee_pos+","+last_name+","+first_name+","+final_title+","+reports_to+","+whole_birth+","+whole_employed+","+adress+","+city_pos+","+state_pos+","+country+","+postal_code+","+phone+","+fax+","+email+");"
     cur.execute(query)
     print ("\nInsercion hecha con exito\n")
     conn.commit()
