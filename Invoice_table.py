@@ -85,8 +85,15 @@ def Insert_sale(count):
     postal_code = "'"+str(randint(11111,99999))+"'"
     total = "'"+str(random.uniform(1,20))+"'"
     query = "INSERT INTO "+concat+"("+field1+","+field2+","+field3+","+field4+","+field5+","+field6+","+field7+","+field8+","+field9+")"+" values("+id_pos+","+cus_pos+","+date+","+adress+","+city_pos+","+final_bill+","+country+","+postal_code+","+total+");"
-    cur.execute(query)
-    print ("\nInsercion hecha con exito\n")
+    try:
+        cur.execute(query)
+        print ("\nInsercion hecha con exito\n")
+    except psycopg2.Error as e:
+        print "Unable to connect!"
+        print e.pgerror
+        print e.diag.message_detail
+        sys.exit(1)
+
     conn.commit()
     conn.close()
 
