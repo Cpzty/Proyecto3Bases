@@ -62,7 +62,7 @@ def insert_Artist():
     id_pos = str(id_pos)
     query = "INSERT INTO "+concat+"("+field1+","+field2+")"+" values("+id_pos+","+artist+");"
     cur.execute(query)
-    print ("\nInsercion hecha con exito\n")
+    #print ("\nInsercion hecha con exito\n")
     conn.commit()
     conn.close()
 #insert_Artist()

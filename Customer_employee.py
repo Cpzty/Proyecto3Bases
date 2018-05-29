@@ -91,8 +91,8 @@ def insert_employees():
     email= "'"+name+"@gmail.com"+"'"
     query = "INSERT INTO "+concat+"("+field1+","+field2+","+field3+","+field4+","+field5+","+field6+","+field7+","+field8+","+field9+","+field10+","+field11+","+field12+","+field13+","+field14+","+field15+")"+" values("+employee_pos+","+last_name+","+first_name+","+final_title+","+reports_to+","+whole_birth+","+whole_employed+","+adress+","+city_pos+","+state_pos+","+country+","+postal_code+","+phone+","+fax+","+email+");"
     cur.execute(query)
-    print ("\nInsercion hecha con exito\n")
+    #print ("\nInsercion hecha con exito\n")
     conn.commit()
     conn.close()
     
-insert_employees()    
+#insert_employees()    

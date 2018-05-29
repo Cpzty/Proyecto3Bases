@@ -86,7 +86,6 @@ def Insert_sale(count):
     total = "'"+str(random.uniform(1,20))+"'"
     query = "INSERT INTO "+concat+"("+field1+","+field2+","+field3+","+field4+","+field5+","+field6+","+field7+","+field8+","+field9+")"+" values("+id_pos+","+cus_pos+","+date+","+adress+","+city_pos+","+final_bill+","+country+","+postal_code+","+total+");"
     cur.execute(query)
-    print ("\nInsercion hecha con exito\n")
     conn.commit()
     conn.close()
 
@@ -106,5 +105,6 @@ def multi_insert(veces):
         if(count>=31):
             count = 1
         i = i+1
-multi_insert(100)
+    print ("\nInsercion hecha con exito\n")
+#multi_insert(100)
 

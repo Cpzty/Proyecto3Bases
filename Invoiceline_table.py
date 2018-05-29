@@ -11,18 +11,19 @@ def retrieve_InvoiceLineIds():
     cur = conn.cursor()
     concat = '"InvoiceLine"'
     name = '"InvoiceLineId"'
-    query = "SELECT"+name+ "from"+concat+"ORDER BY"+name+" desc;"
+    query = "SELECT"+name+ "from"+concat+"ORDER BY"+name+" desc  limit 1;"
     cur.execute(query)
     rows = cur.fetchall()
-    ids = []
-    for i in range (0, len(rows)):
-        clean = str(rows[i]).replace('(','')
+    
+    try:
+        clean = str(rows[0]).replace('(','')
         clean = clean.replace(',','')
         clean = clean.replace(')','')
-        ids.append(int(clean))
+    except:
+        clean = str(0)
     conn.commit()
     conn.close()
-    return ids
+    return clean
 
 def retrieve_InvoiceIds():
     #conn = psycopg2.connect("dbname=kappatalism user=postgres host =localhost")
@@ -70,7 +71,7 @@ def Insert_saleLine():
     fields = ['"InvoiceLineId"','"InvoiceId"','"TrackId"','"UnitPrice"','"Quantity"']
 
     #get ultimo id
-    id_invoiceline_last = retrieve_InvoiceLineIds()[0]
+    id_invoiceline_last = retrieve_InvoiceLineIds()
     #get array con los ids existentes de Invoice
     ids_invoice = retrieve_InvoiceIds()
     #get array con los ids existentes de Track
@@ -78,7 +79,7 @@ def Insert_saleLine():
 
     #generar datos
     #invoice line id
-    invoiceline_id = str(id_invoiceline_last + 1)
+    invoiceline_id = str(int(id_invoiceline_last) + 1)
     #invoice id
     invoice_id = str(ids_invoice[randint(0, len(ids_invoice)-1)])
     #track id
@@ -98,7 +99,7 @@ def Insert_saleLine():
     #hacer el query
     try:
         cur.execute(query)
-        print ("\nInsercion hecha con exito\n")
+        #print ("\nInsercion hecha con exito\n")
     except psycopg2.Error as e:
         print ("\nERROR")
 
@@ -108,9 +109,10 @@ def Insert_saleLine():
 
 def multi_insert(veces):
     i = 0
-    alDia = randint(2,4)
+    alDia = randint(2,3)
     invoiceLine_totales = veces * alDia
     while(i<invoiceLine_totales):
         Insert_saleLine()
         i = i + 1
-multi_insert(100)
+    print ("\nInsercion hecha con exito\n")
+#multi_insert(10)

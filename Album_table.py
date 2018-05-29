@@ -105,7 +105,7 @@ def Insert_Album():
     id_pos2 = str(id_pos2)
     query = "INSERT INTO "+concat+"("+field1+","+field2+","+field3+")"+" values("+id_pos+","+artist+","+id_pos2+");"
     cur.execute(query)
-    print ("\nInsercion hecha con exito\n")
+    #print ("\nInsercion hecha con exito\n")
     conn.commit()
     conn.close()
-Insert_Album()
+#Insert_Album()

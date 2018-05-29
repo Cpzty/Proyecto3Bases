@@ -50,7 +50,7 @@ def Insert_Ptrack():
     id2= str(randint(1,int(id2_range)-1))
     query = "INSERT INTO "+concat+"("+field1+","+field2+")"+"VALUES("+id1+","+id2+") ;"
     cur.execute(query)
-    print ("\nInsercion hecha con exito\n")
+    #print ("\nInsercion hecha con exito\n")
     conn.commit()
     conn.close()
 

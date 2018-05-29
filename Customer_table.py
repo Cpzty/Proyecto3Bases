@@ -92,11 +92,11 @@ def insert_customers():
     name = fake.name().replace(" ","")
     email= "'"+name+"@gmail.com"+"'"
     employee = int(retrieve_last_employee())
-    supp = str(randint(0,employee))
+    supp = str(randint(1,employee))
     query = "INSERT INTO "+concat+"("+field1+","+field2+","+field3+","+field4+","+field5+","+field6+","+field7+","+field8+","+field9+","+field10+","+field11+","+field12+","+field13+")"+" values("+customer_pos+","+first_name+","+last_name+","+final_company+","+adress+","+city_pos+","+state_pos+","+country+","+postal_code+","+phone+","+fax+","+email+","+supp+");"
     cur.execute(query)
-    print ("\nInsercion hecha con exito\n")
+    #print ("\nInsercion hecha con exito\n")
     conn.commit()
     conn.close()
-insert_customers()
+#insert_customers()
     
