@@ -15,8 +15,6 @@ while(True):
         break
     if(int(opcion)==1):
         opcio= int(input("Ingrese la cantidad de dias que desea simular: "))
-        inv.multi_insert(opcio)
-        invline.multi_insert((opcio))
         P_track = randint(0,9)
         for i in range(opcio):
             if(P_track ==1 or P_track ==2 or P_track ==3):
@@ -34,6 +32,9 @@ while(True):
             artist1 = randint(0,9)
             if(artist1 ==1 or artist1 ==2 or artist1 ==3 or artist1 ==4 or artist1==5 or artist1 ==6 or artist1 == 7 or artist ==8 ):
                 alb.Insert_Album()
+        inv.multi_insert(opcio)
+        invline.multi_insert((opcio))
+        
 
         
        
