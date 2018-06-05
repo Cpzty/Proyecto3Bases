@@ -14,7 +14,8 @@ while(True):
     if(int(opcion) ==2):
         break
     if(int(opcion)==1):
-        opcio= int(input("Ingrese la cantidad de dias que desea simular: "))        
+        opcio= int(input("Ingrese la cantidad de dias que desea simular: "))
+        P_track = randint(0,9)
         for i in range(opcio):
             if(P_track ==1 or P_track ==2 or P_track ==3):
                 ptrack.Insert_Ptrack()
@@ -33,7 +34,7 @@ while(True):
                 alb.Insert_Album()
         inv.multi_insert(opcio)
         invline.multi_insert((opcio))
-        P_track = randint(0,9)
+        
 
         
        
