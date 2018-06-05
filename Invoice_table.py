@@ -106,5 +106,5 @@ def multi_insert(veces):
             count = 1
         i = i+1
     print ("\nInsercion hecha con exito\n")
-multi_insert(100)
+#multi_insert(100)
 
