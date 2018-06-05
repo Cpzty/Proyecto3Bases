@@ -25,7 +25,7 @@ def retrieve_Last_CustomerId():
     cur = conn.cursor()
     concat = '"Customer"'
     name = '"CustomerId"'
-    query = "SELECT"+name+ "from"+concat+"ORDER BY"+name+" desc limit 1;"
+    query = "SELECT"+name+ "from"+concat+"ORDER BY RANDOM() limit 1;"
     cur.execute(query)
     rows = cur.fetchall()
     clean = str(rows[0]).replace('(','')
@@ -53,7 +53,7 @@ def Insert_sale(count):
     field9 = '"Total"'
     id_invoice = retrieve_Last_InvoiceId()
     customer_id = int(retrieve_Last_CustomerId())
-    cus_pos = str(randint(1,customer_id ))
+    cus_pos = str(customer_id)
     dia = count
     dia = str(count)
    # if(int(dia) >= 30):
@@ -106,5 +106,5 @@ def multi_insert(veces):
             count = 1
         i = i+1
     print ("\nInsercion hecha con exito\n")
-#multi_insert(100)
+multi_insert(100)
 
