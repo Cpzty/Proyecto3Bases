@@ -7,7 +7,7 @@ def retrieve_Last_TrackId():
     cur = conn.cursor()
     concat = '"Track"'
     name = '"TrackId"'
-    query = "SELECT"+name+ "from"+concat+"ORDER BY RANDOM() desc limit 1;"
+    query = "SELECT"+name+ "from"+concat+"ORDER BY "+name+"desc limit 1;"
     cur.execute(query)
     rows = cur.fetchall()
     clean = str(rows[0]).replace('(','')

@@ -34,9 +34,3 @@ while(True):
                 alb.Insert_Album()
         inv.multi_insert(opcio)
         invline.multi_insert((opcio))
-        
-
-        
-       
-        
-        

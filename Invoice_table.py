@@ -27,11 +27,7 @@ def retrieve_Last_CustomerId():
     cur = conn.cursor()
     concat = '"Customer"'
     name = '"CustomerId"'
-<<<<<<< HEAD
-    query = "SELECT"+name+ "from"+concat+"ORDER BY RANDOM() desc limit 1;"
-=======
     query = "SELECT"+name+ "from"+concat+"ORDER BY RANDOM() limit 1;"
->>>>>>> a49f322413579d427ddb6c921c402cad641033af
     cur.execute(query)
     rows = cur.fetchall()
     clean = str(rows[0]).replace('(','')
