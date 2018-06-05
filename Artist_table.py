@@ -3,7 +3,7 @@ from faker import Faker
 fake = Faker()
 pos_artist = "277"
 def retrieve_Artists():
-    conn = psycopg2.connect("dbname=kappatalism user=postgres host =localhost")
+    conn = psycopg2.connect("dbname=proyecto user=postgres host =localhost password = admin")
     cur = conn.cursor()
     concat = '"Artist"'
     name = '"Name"'
@@ -19,7 +19,7 @@ def retrieve_Artists():
 #retrieve_Artists()
 
 def retrieve_Artists_and_Id():
-    conn = psycopg2.connect("dbname=kappatalism user=postgres host =localhost")
+    conn = psycopg2.connect("dbname=proyecto user=postgres host =localhost password = admin")
     cur = conn.cursor()
     concat = '"Artist"'
     name = '"Name"'
@@ -35,7 +35,7 @@ def retrieve_Artists_and_Id():
 #retrieve_Artists_and_Id()
 
 def retrieve_last_Artists_id():
-    conn = psycopg2.connect("dbname=kappatalism user=postgres host =localhost")
+    conn = psycopg2.connect("dbname=proyecto user=postgres host =localhost password = admin")
     cur = conn.cursor()
     concat = '"Artist"'
     name = '"ArtistId"'
@@ -51,7 +51,7 @@ def retrieve_last_Artists_id():
 
 #retrieve_last_Artists_id()
 def insert_Artist():
-    conn = psycopg2.connect("dbname=kappatalism user=postgres host =localhost")
+    conn = psycopg2.connect("dbname=proyecto user=postgres host =localhost password = admin")
     cur = conn.cursor()
     concat = '"Artist"'
     field1 = '"ArtistId"'

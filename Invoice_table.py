@@ -6,7 +6,7 @@ import random
 count =5
 
 def retrieve_Last_InvoiceId():
-    conn = psycopg2.connect("dbname=kappatalism user=postgres host =localhost")
+    conn = psycopg2.connect("dbname=proyecto user=postgres host =localhost password = admin")
     cur = conn.cursor()
     concat = '"Invoice"'
     name = '"InvoiceId"'
@@ -20,12 +20,14 @@ def retrieve_Last_InvoiceId():
     conn.close()
     return clean
 
+#retrieve_Last_InvoiceId()
+
 def retrieve_Last_CustomerId():
-    conn = psycopg2.connect("dbname=kappatalism user=postgres host =localhost")
+    conn = psycopg2.connect("dbname=proyecto user=postgres host =localhost password = admin")
     cur = conn.cursor()
     concat = '"Customer"'
     name = '"CustomerId"'
-    query = "SELECT"+name+ "from"+concat+"ORDER BY"+name+" desc limit 1;"
+    query = "SELECT"+name+ "from"+concat+"ORDER BY RANDOM() desc limit 1;"
     cur.execute(query)
     rows = cur.fetchall()
     clean = str(rows[0]).replace('(','')
@@ -39,7 +41,7 @@ def retrieve_Last_CustomerId():
 #retrieve_Last_CustomerId()
 
 def Insert_sale(count):
-    conn = psycopg2.connect("dbname=kappatalism user=postgres host =localhost")
+    conn = psycopg2.connect("dbname=proyecto user=postgres host =localhost password = admin")
     cur = conn.cursor()
     concat = '"Invoice"'
     field1 = '"InvoiceId"'
@@ -53,7 +55,7 @@ def Insert_sale(count):
     field9 = '"Total"'
     id_invoice = retrieve_Last_InvoiceId()
     customer_id = int(retrieve_Last_CustomerId())
-    cus_pos = str(randint(1,customer_id ))
+    cus_pos = str(customer_id)
     dia = count
     dia = str(count)
    # if(int(dia) >= 30):
@@ -95,7 +97,7 @@ def multi_insert(veces):
     cambio_dia = randint(2,8)
     contador_dia = 0
     count =5
-    while(i<veces):
+    while(i<int(veces)):
         Insert_sale(count)
         contador_dia = contador_dia+1
         if(contador_dia == cambio_dia):

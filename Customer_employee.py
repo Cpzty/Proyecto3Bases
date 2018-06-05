@@ -6,7 +6,7 @@ from random import randint
 import random
 import string
 def retrieve_last_employee():
-    conn = psycopg2.connect("dbname=kappatalism user=postgres host =localhost")
+    conn = psycopg2.connect("dbname=proyecto user=postgres host =localhost password = admin")
     cur = conn.cursor()
     concat = '"Employee"'
     name = '"EmployeeId"'
@@ -22,7 +22,7 @@ def retrieve_last_employee():
     return clean
 
 def insert_employees():
-    conn = psycopg2.connect("dbname=kappatalism user=postgres host =localhost")
+    conn = psycopg2.connect("dbname=proyecto user=postgres host =localhost password = admin")
     cur = conn.cursor()
     concat = '"Employee"'
     field1 = '"EmployeeId"'
@@ -55,12 +55,12 @@ def insert_employees():
         reports_to = 6
     reports_to = "'"+str(reports_to)+"'"
     birth_year = str(randint(1960,1990))
-    birth_month = str(randint(1,12))
-    birth_day = str(randint(1,31))
+    birth_month = str(randint(1,11))
+    birth_day = str(randint(1,30))
     whole_birth = "'"+birth_year+"-"+birth_month+"-"+birth_day+"'"
     employed_year = str(randint(2008,2017))
     employed_month = str(randint(1,11))
-    employed_day = str(randint(1,30))
+    employed_day = str(randint(1,27))
     whole_employed = "'"+employed_year+"-"+employed_month+"-"+employed_day+"'"
     adress = fake.address()
     adress = "'"+adress+"'"

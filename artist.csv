@@ -3,7 +3,6 @@
 3;Aerosmith
 4;Alanis Morissette
 5;Alice In Chains
-6;Antônio Carlos Jobim
 7;Apocalyptica
 8;Audioslave
 9;BackBeat
@@ -15,9 +14,7 @@
 15;Buddy Guy
 16;Caetano Veloso
 17;Chico Buarque
-18;Chico Science & Nação Zumbi
 19;Cidade Negra
-20;Cláudio Zoli
 21;Various Artists
 22;Led Zeppelin
 23;Frank Zappa & Captain Beefheart
@@ -25,14 +22,12 @@
 25;Milton Nascimento & Bebeto
 26;Azymuth
 27;Gilberto Gil
-28;João Gilberto
 29;Bebel Gilberto
 30;Jorge Vercilo
 31;Baby Consuelo
 32;Ney Matogrosso
 33;Luiz Melodia
 34;Nando Reis
-35;Pedro Luís & A Parede
 36;O Rappa
 37;Ed Motta
 38;Banda Black Rio
@@ -42,10 +37,8 @@
 42;Milton Nascimento
 43;A Cor Do Som
 44;Kid Abelha
-45;Sandra De Sá
 46;Jorge Ben
 47;Hermeto Pascoal
-48;Barão Vermelho
 49;Edson, DJ Marky & DJ Patife Featuring Fernanda Porto
 50;Metallica
 51;Queen
@@ -62,19 +55,12 @@
 62;Santana Feat. Rob Thomas
 63;Santana Feat. Lauryn Hill & Cee-Lo
 64;Santana Feat. The Project G&B
-65;Santana Feat. Maná
 66;Santana Feat. Eagle-Eye Cherry
 67;Santana Feat. Eric Clapton
 68;Miles Davis
 69;Gene Krupa
-70;Toquinho & Vinícius
-71;Vinícius De Moraes & Baden Powell
-72;Vinícius De Moraes
-73;Vinícius E Qurteto Em Cy
-74;Vinícius E Odette Lara
 75;Vinicius, Toquinho & Quarteto Em Cy
 76;Creedence Clearwater Revival
-77;Cássia Eller
 78;Def Leppard
 79;Dennis Chambers
 80;Djavan
@@ -94,21 +80,14 @@
 94;Jimi Hendrix
 95;Joe Satriani
 96;Jota Quest
-97;João Suplicy
 98;Judas Priest
-99;Legião Urbana
 100;Lenny Kravitz
 101;Lulu Santos
 102;Marillion
 103;Marisa Monte
 104;Marvin Gaye
 105;Men At Work
-106;Motörhead
-107;Motörhead & Girlschool
-108;Mônica Marianno
-109;Mötley Crüe
 110;Nirvana
-111;O Terço
 112;Olodum
 113;Os Paralamas Do Sucesso
 114;Ozzy Osbourne
@@ -143,7 +122,6 @@
 143;The Tea Party
 144;The Who
 145;Tim Maia
-146;Titãs
 147;Battlestar Galactica
 148;Heroes
 149;Lost
@@ -183,19 +161,16 @@
 183;Gustavo & Andres Veiga & Salazar
 184;Rodox
 185;Charlie Brown Jr.
-186;Pedro Luís E A Parede
 187;Los Hermanos
 188;Mundo Livre S/A
 189;Otto
 190;Instituto
-191;Nação Zumbi
 192;DJ Dolores & Orchestra Santa Massa
 193;Seu Jorge
 194;Sabotage E Instituto
 195;Stereo Maracana
 196;Cake
 197;Aisha Duo
-198;Habib Koité and Bamada
 199;Karsh Kale
 200;The Posies
 201;Luciana Souza/Romero Lubambo
@@ -215,7 +190,6 @@
 215;Academy of St. Martin in the Fields Chamber Ensemble & Sir Neville Marriner
 216;Berliner Philharmoniker, Claudio Abbado & Sabine Meyer
 217;Royal Philharmonic Orchestra & Sir Thomas Beecham
-218;Orchestre Révolutionnaire et Romantique & John Eliot Gardiner
 219;Britten Sinfonia, Ivor Bolton & Lesley Garrett
 220;Chicago Symphony Chorus, Chicago Symphony Orchestra & Sir Georg Solti
 221;Sir Georg Solti & Wiener Philharmoniker
@@ -238,9 +212,7 @@
 238;Maurizio Pollini
 239;Academy of St. Martin in the Fields, Sir Neville Marriner & William Bennett
 240;Gustav Mahler
-241;Felix Schmidt, London Symphony Orchestra & Rafael Frühbeck de Burgos
 242;Edo de Waart & San Francisco Symphony
-243;Antal Doráti & London Symphony Orchestra
 244;Choir Of Westminster Abbey & Simon Preston
 245;Michael Tilson Thomas & San Francisco Symphony
 246;Chor der Wiener Staatsoper, Herbert Von Karajan & Wiener Philharmoniker
@@ -259,12 +231,9 @@
 259;The 12 Cellists of The Berlin Philharmonic
 260;Adrian Leaper & Doreen de Feis
 261;Roger Norrington, London Classical Players
-262;Charles Dutoit & L'Orchestre Symphonique de Montréal
 263;Equale Brass Ensemble, John Eliot Gardiner & Munich Monteverdi Orchestra and Choir
-264;Kent Nagano and Orchestre de l'Opéra de Lyon
 265;Julian Bream
 266;Martin Roscoe
-267;Göteborgs Symfoniker & Neeme Järvi
 268;Itzhak Perlman
 269;Michele Campanella
 270;Gerald Moore
@@ -273,135 +242,158 @@
 273;C. Monteverdi, Nigel Rogers - Chiaroscuro\; London Baroque\; London Cornett & Sackbu
 274;Nash Ensemble
 275;Philip Glass Ensemble
-276;Muse
-277;Muse
-278;Muse
-279;Muse
-280;Muse
-281;nicholas deleon
-282;david maldonado
-283;Courtney Friedman
-284;Lisa Horton
-285;Dana Franklin
-286;Kelly Ward
-287;Douglas Clark
-288;Sherry Cervantes
-289;Joel Snyder
-290;Debbie Lamb
-291;Tabitha Martinez
-292;Taylor Blackwell
-293;Amy Ritter
-294;Adam Gonzalez
-295;Anne Petty
-296;James Hudson
-297;Heidi Byrd
-298;Ashley Silva
-299;Christopher Lee
-300;Cody Burch
-301;Matthew Moore
-302;Dwayne Young
-303;Michael Evans
-304;Carlos Lewis
-305;John Evans MD
-306;Zachary White
-307;Sarah Moore
-308;Johnny Bryant
-309;Daniel Kaiser
-310;Randy Johnston
-311;Barbara Garcia
-312;Daniel Jones
-313;Johnny Robertson
-314;Michael Jackson
-315;Robert Payne
-316;Andrew Williams
-317;Anthony Lamb
-318;Jeremy Kennedy
-319;Steven Torres
-320;Ashley Thomas
-321;Darryl Roberts
-322;Shelly Thomas
-323;Jerome Lawrence
-324;Vernon Harrison MD
-325;Clifford Murray
-326;Katherine Aguirre
-327;Curtis Torres
-328;Roy Jackson
-329;Kim York
-330;James Hall
-331;Stephanie Williamson
-332;Bruce Burgess
-333;Eric Perez
-334;James Smith
-335;Randall Miller
-336;Mark Jackson
-337;Lindsay Gonzalez
-338;Adam Thomas
-339;Joy Ferguson
-340;Natalie Love
-341;Sabrina Smith
-342;Alexandra Jackson
-343;Justin Porter
-344;Yolanda Willis
-345;Tracy Turner
-346;Pamela James
-347;Kelly Little
-348;Jill Rivera
-349;Trevor Gonzalez
-350;Angela Shaffer
-351;Heather Proctor
-352;Melanie Allen
-353;Peter Anderson
-354;Barbara Lee
-355;Jennifer Mendez
-356;Emma Butler
-357;Angie Aguilar
-358;Michele Porter MD
-359;Derrick Weeks
-360;Mark Lawson
-361;Elizabeth Duncan
-362;Michelle Obrien
-363;Nicholas White
-364;Jeffrey Alexander
-365;Melissa Page
-366;Billy Hernandez
-367;Ellen Price
-368;Veronica Butler
-369;Devin Howell
-370;Jeremy Ross
-371;Andrea Armstrong
-372;Michael Cameron
-373;Rebecca Adams
-374;Kimberly Olsen
-375;Susan Hale
-376;Rachel Thompson
-377;Mitchell Wood
-378;Jacqueline Myers
-379;Brian Gutierrez
-380;Amber Greer
-381;Curtis Adams
-382;Rhonda Arnold
-383;Tara Lane
-384;Kathryn Bowman
-385;Mary Young
-386;Jeffery Dorsey
-387;Jacob Myers
-388;Michelle Rivera
-389;Devon Moyer
-390;Lisa Sullivan
-391;Tiffany Carter
-392;Claudia Wright
-393;Erik Salas
-394;Jenna Hall
-395;Whitney Rodriguez
-396;Nicole Dominguez
-397;Breanna Lopez
-398;Benjamin Lowery
-399;Vincent Byrd
-400;Adam Jones
-401;Joyce Sullivan
-402;David Castaneda
-403;Christopher Jones
-404;Carlos Nguyen
-405;Colton Thomas
-406;Jerry Ortiz
-407;Kelsey Bailey
+276;David Obrien
+277;David Smith
+278;Julia Craig
+279;Yolanda Roberts
+280;Michael Robinson
+281;Travis Martin
+282;Holly Nelson
+283;Kimberly Liu
+284;Kimberly Burns
+285;Denise Dickerson
+286;Kathleen Parsons
+287;Emma Mcdaniel
+288;Tiffany Gordon
+289;Joseph Nunez
+290;Stacey Howell
+291;Glenn Schaefer
+292;Shawn Crawford
+293;Daniel Erickson
+294;Shannon Spencer
+295;Paige Wilkerson
+296;Christopher Wilson
+297;Susan Jensen
+298;Kelly Warren
+299;Dawn Montoya
+300;Vincent Stanley
+301;Diana Rowland
+302;Joseph Hill
+303;Pamela Smith
+304;Patricia Bautista
+305;Jennifer Barron
+306;Mathew Perez
+307;Deborah Smith
+308;Holly Cohen
+309;Robyn Munoz
+310;Ashley Mcclain
+311;Lisa Santiago
+312;Joseph Allen
+313;Matthew Guerra
+314;Brian Mckinney
+315;Corey Underwood
+316;Charles Combs
+317;Betty Pratt
+318;Taylor Turner
+319;Jacqueline Smith
+320;Nicole Wade
+321;Harold Hobbs DVM
+322;Joseph Robinson
+323;Nicholas Kline
+324;Chad Day
+325;Michael Davis
+326;Terri Patterson
+327;Joann Adams
+328;David Jones
+329;Carolyn Carter
+330;Christopher Shaw
+331;Stephanie Doyle
+332;Donald Davis
+333;Andrew Stark
+334;Angela Macias
+335;Jessica Brock
+336;Jennifer Marshall
+337;Shawn Jackson
+338;Erica Delgado
+339;Laura Schmidt
+340;Juan Bryan
+341;James Williams
+342;Megan Fernandez
+343;Seth Stone
+344;Ivan Suarez
+345;Casey Palmer
+346;Justin Thomas
+347;Micheal Turner
+348;Anthony Wilson
+349;Kevin Johnson
+350;Nathan Anderson
+351;Dr. April French
+352;Nathan Oconnor
+353;Carolyn Gross
+354;Carol Navarro
+355;Kathleen Arnold
+356;Evelyn Johnson
+357;Joshua Graves
+358;Alicia Ramirez MD
+359;Brian Owens
+360;Dorothy Wallace
+361;Megan Stewart
+362;Tyler Potter
+363;Michael Johnson
+364;Travis Caldwell
+365;Calvin Roth
+366;Rachel Thornton
+367;Nicole Mendoza
+368;Tyler Martinez
+369;Nicholas Horne
+370;Jennifer Griffin
+371;Roberta Gray
+372;Tammy Martin
+373;Erik Stanley
+374;Michelle Valencia
+375;Cory Murphy
+376;Eric Clark PhD
+377;Justin Benitez
+378;Amanda Simmons
+379;Mrs. Christina Watkins
+380;Adrienne Lynch
+381;Whitney Abbott
+382;Heidi Hines
+383;Cassandra Graham
+384;Corey Romero
+385;William Tucker
+386;Melissa Kirby MD
+387;Eric Bailey
+388;Robert Martin
+389;Jesse Deleon
+390;Yolanda Bass
+391;Sarah Montgomery
+392;Roger Bruce
+393;Brenda Bell
+394;Amber Aguilar
+395;Elizabeth Taylor
+396;William Cherry
+397;Peter Hood
+398;Misty Brown
+399;Diane Howard
+400;Allen Garcia
+401;Brian Peck
+402;Rebecca Davis
+403;Mark Smith
+404;Angela Diaz
+405;Sandra Walters
+406;Dana Martin
+407;Sabrina Wall
+408;Jordan Sanchez
+409;Christopher Martinez
+410;Alexander Davis
+411;Susan Miller
+412;Jessica Bruce
+413;Samantha Gonzalez
+414;George Wright
+415;Christina Jackson
+416;Dana Scott
+417;Raymond Davis
+418;Michael Richardson Jr.
+419;James Durham
+420;Vanessa Hill
+421;Andrea Bowman
+422;Kaitlyn Johnson
+423;William Lang
+424;Evelyn Wells
+425;Frances Scott
+426;William Lloyd
+427;Rachel Campbell
+428;Kevin Harmon
+429;Aaron Stewart
+430;Christopher Lee

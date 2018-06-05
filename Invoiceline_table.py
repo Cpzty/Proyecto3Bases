@@ -7,7 +7,7 @@ count = 5
 
 def retrieve_InvoiceLineIds():
     #conn = psycopg2.connect("dbname=kappatalism user=postgres host =localhost")
-    conn = psycopg2.connect("dbname=kappatalism user=postgres host=localhost password=j66352769")
+    conn = psycopg2.connect("dbname=proyecto user=postgres host =localhost password = admin")
     cur = conn.cursor()
     concat = '"InvoiceLine"'
     name = '"InvoiceLineId"'
@@ -27,7 +27,7 @@ def retrieve_InvoiceLineIds():
 
 def retrieve_InvoiceIds():
     #conn = psycopg2.connect("dbname=kappatalism user=postgres host =localhost")
-    conn = psycopg2.connect("dbname=kappatalism user=postgres host=localhost password=j66352769")
+    conn = psycopg2.connect("dbname=proyecto user=postgres host =localhost password = admin")
     cur = conn.cursor()
     concat = '"Invoice"'
     name = '"InvoiceId"'
@@ -46,7 +46,7 @@ def retrieve_InvoiceIds():
 
 def retrieve_TrackIds():
     #conn = psycopg2.connect("dbname=kappatalism user=postgres host =localhost")
-    conn = psycopg2.connect("dbname=kappatalism user=postgres host=localhost password=j66352769")
+    conn = psycopg2.connect("dbname=proyecto user=postgres host =localhost password = admin")
     cur = conn.cursor()
     concat = '"Track"'
     name = '"TrackId"'
@@ -65,7 +65,7 @@ def retrieve_TrackIds():
 
 def Insert_saleLine():
     #conn = psycopg2.connect("dbname=kappatalism user=postgres host =localhost")
-    conn = psycopg2.connect("dbname=kappatalism user=postgres host=localhost password=j66352769")
+    conn = psycopg2.connect("dbname=proyecto user=postgres host =localhost password = admin")
     cur = conn.cursor()
     concat = '"InvoiceLine"'
     fields = ['"InvoiceLineId"','"InvoiceId"','"TrackId"','"UnitPrice"','"Quantity"']

@@ -5,7 +5,6 @@
 5;Big Ones;3
 6;Jagged Little Pill;4
 7;Facelift;5
-8;Warner 25 Anos;6
 9;Plays Metallica By Four Cellos;7
 10;Audioslave;8
 11;Out Of Exile;8
@@ -21,17 +20,11 @@
 21;Prenda Minha;16
 22;Sozinho Remix Ao Vivo;16
 23;Minha Historia;17
-24;Afrociberdelia;18
-25;Da Lama Ao Caos;18
-26;Acústico MTV [Live];19
 27;Cidade Negra - Hits;19
-28;Na Pista;20
-29;Axé Bahia 2001;21
 30;BBC Sessions [Disc 1] [Live];22
 31;Bongo Fury;23
 32;Carnaval 2001;21
 33;Chill: Brazil (Disc 1);24
-34;Chill: Brazil (Disc 2);6
 35;Garage Inc. (Disc 1);50
 36;Greatest Hits II;51
 37;Greatest Kiss;52
@@ -39,7 +32,6 @@
 39;International Superhits;54
 40;Into The Light;55
 41;Meus Momentos;56
-42;Minha História;57
 43;MK III The Final Concerts [Disc 1];58
 44;Physical Graffiti [Disc 1];22
 45;Sambas De Enredo 2001;21
@@ -49,12 +41,9 @@
 49;The Essential Miles Davis [Disc 2];68
 50;The Final Concerts (Disc 2);58
 51;Up An' Atom;69
-52;Vinícius De Moraes - Sem Limite;70
 53;Vozes do MPB;21
 54;Chronicle, Vol. 1;76
 55;Chronicle, Vol. 2;76
-56;Cássia Eller - Coleção Sem Limite [Disc 2];77
-57;Cássia Eller - Sem Limite [Disc 1];77
 58;Come Taste The Band;58
 59;Deep Purple In Rock;58
 60;Fireball;58
@@ -68,7 +57,6 @@
 68;Outbreak;79
 69;Djavan Ao Vivo - Vol. 02;80
 70;Djavan Ao Vivo - Vol. 1;80
-71;Elis Regina-Minha História;41
 72;The Cream Of Clapton;81
 73;Unplugged;81
 74;Album Of The Year;82
@@ -82,9 +70,7 @@
 82;The Colour And The Shape;84
 83;My Way: The Best Of Frank Sinatra [Disc 1];85
 84;Roda De Funk;86
-85;As Canções de Eu Tu Eles;27
 86;Quanta Gente Veio Ver (Live);27
-87;Quanta Gente Veio ver--Bônus De Carnaval;27
 88;Faceless;87
 89;American Idiot;54
 90;Appetite for Destruction;88
@@ -121,7 +107,6 @@
 121;Surfing with the Alien (Remastered);95
 122;Jorge Ben Jor 25 Anos;46
 123;Jota Quest-1995;96
-124;Cafezinho;97
 125;Living After Midnight;98
 126;Unplugged [Live];52
 127;BBC Sessions [Disc 2] [Live];22
@@ -136,11 +121,7 @@
 136;Presence;22
 137;The Song Remains The Same (Disc 1);22
 138;The Song Remains The Same (Disc 2);22
-139;A TempestadeTempestade Ou O Livro Dos Dias;99
-140;Mais Do Mesmo;99
 141;Greatest Hits;100
-142;Lulu Santos - RCA 100 Anos De Música - Álbum 01;101
-143;Lulu Santos - RCA 100 Anos De Música - Álbum 02;101
 144;Misplaced Childhood;102
 145;Barulhinho Bom;103
 146;Seek And Shall Find: More Of The Best (1963-1981);104
@@ -157,14 +138,9 @@
 157;Miles Ahead;68
 158;Milton Nascimento Ao Vivo;42
 159;Minas;42
-160;Ace Of Spades;106
-161;Demorou...;108
-162;Motley Crue Greatest Hits;109
 163;From The Muddy Banks Of The Wishkah [Live];110
 164;Nevermind;110
-165;Compositores;111
 166;Olodum;112
-167;Acústico MTV;113
 168;Arquivo II;113
 169;Arquivo Os Paralamas Do Sucesso;113
 170;Bark at the Moon (Remastered);114
@@ -181,14 +157,12 @@
 181;Ten;118
 182;Vs.;118
 183;Dark Side Of The Moon;120
-184;Os Cães Ladram Mas A Caravana Não Pára;121
 185;Greatest Hits I;51
 186;News Of The World;51
 187;Out Of Time;122
 188;Green;124
 189;New Adventures In Hi-Fi;124
 190;The Best Of R.E.M.: The IRS Years;124
-191;Cesta Básica;125
 192;Raul Seixas;126
 193;Blood Sugar Sex Magik;127
 194;By The Way;127
@@ -197,7 +171,6 @@
 197;Santana - As Years Go By;59
 198;Santana Live;59
 199;Maquinarama;130
-200;O Samba Poconé;130
 201;Judas 0: B-Sides and Rarities;131
 202;Rotten Apples: Greatest Hits;131
 203;A-Sides;132
@@ -221,8 +194,6 @@
 221;My Generation - The Very Best Of The Who;144
 222;Serie Sem Limite (Disc 1);145
 223;Serie Sem Limite (Disc 2);145
-224;Acústico;146
-225;Volume Dois;146
 226;Battlestar Galactica: The Story So Far;147
 227;Battlestar Galactica, Season 3;147
 228;Heroes, Season 1;148
@@ -244,7 +215,6 @@
 244;Van Halen;152
 245;Van Halen III;152
 246;Contraband;153
-247;Vinicius De Moraes;72
 248;Ao Vivo [IMPORT];155
 249;The Office, Season 1;156
 250;The Office, Season 2;156
@@ -260,7 +230,6 @@
 260;Cake: B-Sides and Rarities;196
 261;LOST, Season 4;149
 262;Quiet Songs;197
-263;Muso Ko;198
 264;Realize;199
 265;Every Kind of Light;200
 266;Duos II;201
@@ -269,7 +238,6 @@
 269;Temple of the Dog;204
 270;Carry On;205
 271;Revelations;8
-392;Nicholas Dominguez;320
 272;Adorate Deum: Gregorian Chant from the Proper of the Mass;206
 273;Allegri: Miserere;207
 274;Pachelbel: Canon & Gigue;208
@@ -282,11 +250,9 @@
 281;Sir Neville Marriner: A Celebration;215
 282;Mozart: Wind Concertos;216
 283;Haydn: Symphonies 99 - 104;217
-284;Beethoven: Symhonies Nos. 5 & 6;218
 285;A Soprano Inspired;219
 286;Great Opera Choruses;220
 287;Wagner: Favourite Overtures;221
-288;Fauré: Requiem, Ravel: Pavane & Others;222
 289;Tchaikovsky: The Nutcracker;223
 290;The Last Night of the Proms;224
 291;Puccini: Madama Butterfly - Highlights;225
@@ -304,9 +270,7 @@
 303;Sibelius: Finlandia;237
 304;Beethoven Piano Sonatas: Moonlight & Pastorale;238
 305;Great Recordings of the Century - Mahler: Das Lied von der Erde;240
-306;Elgar: Cello Concerto & Vaughan Williams: Fantasias;241
 307;Adams, John: The Chairman Dances;242
-308;Tchaikovsky: 1812 Festival Overture, Op.49, Capriccio Italien & Beethoven: Wellington's Victory;243
 309;Palestrina: Missa Papae Marcelli & Allegri: Miserere;244
 310;Prokofiev: Romeo & Juliet;245
 311;Strauss: Waltzes;226
@@ -314,7 +278,6 @@
 313;Bizet: Carmen Highlights;246
 314;English Renaissance;247
 315;Handel: Music for the Royal Fireworks (Original Version 1749);208
-316;Grieg: Peer Gynt Suites & Sibelius: Pelléas et Mélisande;248
 317;Mozart Gala: Famous Arias;249
 318;SCRIABIN: Vers la flamme;250
 319;Armada: Music from the Courts of England and Spain;251
@@ -328,17 +291,12 @@
 327;Bach: Orchestral Suites Nos. 1 - 4;257
 328;Charpentier: Divertissements, Airs & Concerts;258
 329;South American Getaway;259
-330;Górecki: Symphony No. 3;260
 331;Purcell: The Fairy Queen;261
-332;The Ultimate Relexation Album;262
 333;Purcell: Music for the Queen Mary;263
-334;Weill: The Seven Deadly Sins;264
 335;J.S. Bach: Chaconne, Suite in E Minor, Partita in E Major & Prelude, Fugue and Allegro;265
 336;Prokofiev: Symphony No.5 & Stravinksy: Le Sacre Du Printemps;248
 337;Szymanowski: Piano Works, Vol. 1;266
-338;Nielsen: The Six Symphonies;267
 339;Great Recordings of the Century: Paganini's 24 Caprices;268
-340;Liszt - 12 Études D'Execution Transcendante;269
 341;Great Recordings of the Century - Shubert: Schwanengesang, 4 Lieder;270
 342;Locatelli: Concertos for Violin, Strings and Continuo, Vol. 3;271
 343;Respighi:Pines of Rome;226
@@ -346,96 +304,112 @@
 345;Monteverdi: L'Orfeo;273
 346;Mozart: Chamber Music;274
 347;Koyaanisqatsi (Soundtrack from the Motion Picture);275
-348;Andrea Patel;276
-349;Sharon Carr;277
-350;Lisa Clark;278
-351;Wendy Lee;279
-352;Gregory Bradshaw II;280
-353;Jason Francis;281
-354;Belinda White;282
-355;Brandon Richardson;283
-356;Jenny Massey;284
-357;Jasmine Kelly;285
-358;Shawn Neal;286
-359;Victoria Stein;287
-360;Nathaniel Dillon;288
-361;Jennifer Alexander;289
-362;Jamie Cook;290
-363;Benjamin Mosley;291
-364;Rachael Nichols;292
-365;Daniel Parker;293
-366;April White;294
-367;Jeffrey Barron;295
-368;Sarah Crosby;296
-369;Sonia Mann;297
-370;Shari Torres;298
-371;Tammy Mathews;299
-372;Scott Brooks;300
-373;Blake Mcdowell;301
-374;Dana Lambert;302
-375;Kristina Foley;303
-376;Jeffrey Gibbs;304
-377;Courtney Taylor;305
-378;Dakota Smith;306
-379;Jeffrey Jensen;307
-380;Lisa Cox;308
-381;Linda Freeman;309
-382;Ashley Khan;310
-383;Greg Wagner;311
-384;Derek Young;312
-385;Kimberly Nichols;313
-386;Karen Morris;314
-387;Philip Jackson;315
-388;Timothy Reed;316
-389;Alyssa Vincent;317
-390;Rachel Lin;318
-391;Connie Young;319
-393;Alexander Chung;321
-394;Kelly Johnson;322
-395;Donald Osborn;323
-396;Mrs. Anita Williams DVM;324
-397;Vicki Gilbert;325
-398;Jennifer Owens;326
-399;Courtney Mann;327
-400;Sabrina Zavala;328
-401;Duane White;329
-402;Trevor Harris;330
-403;Alison Stewart;331
-404;James Allison;332
-405;Michael Torres;333
-406;Roger Ponce;334
-407;Breanna Lucas;335
-408;Kelly Davis;336
-409;Christine Reese;337
-410;James Mendez;338
-411;Lacey Kent;339
-412;Beth Smith;340
-413;Dr. Monica Moore;341
-414;Kelsey Lee;342
-415;Holly Brown;343
-416;Mr. Taylor Wood;344
-417;Jeffrey Arias;345
-418;Alison Blackwell;346
-419;Sarah Sanders;347
-420;Michele Jensen;348
-421;Catherine Jones;349
-422;Christopher Perry;350
-423;Victoria Hill;351
-424;John Campbell;352
-425;Christopher Campos;353
-426;Ricardo Esparza;354
-427;Michelle Clark;355
-428;Christopher Thompson;356
-429;Rhonda Morrison;357
-430;Jill Johnson;358
-431;Carlos Wilson;359
-432;Brandon Williams;360
-433;Kelly Pineda;361
-434;Stephen Harris;362
-435;Christine Walton;363
-436;Sandra Jackson;364
-437;Daniel Davis;365
-438;Laura Torres;366
-439;Charles Hayes;367
-440;Catherine Harris;368
-441;Linda Warner;369
+348;Alexis Hart;276
+349;Kathleen Williams;277
+350;Kenneth Woods;278
+351;Jennifer Cox;279
+352;Michael Reed;280
+353;Katherine Klein;281
+354;Heidi Perez;282
+355;Robert Miles;283
+356;Michael Rodriguez;284
+357;Amanda Cooper;285
+358;Tina Johnson;286
+359;Christopher Gonzalez;287
+360;Michael Cummings;288
+361;Kurt Harris;289
+362;Julie Watson;290
+363;Tara Reyes;291
+364;Jeffrey Todd;292
+365;Renee Cooper;293
+366;Julia Weaver;294
+367;Mr. Eric Pham;295
+368;Sarah Reyes;296
+369;Jason Armstrong;297
+370;Carrie Perez;298
+371;David Oneill;299
+372;Susan Lopez;300
+373;Breanna Washington MD;301
+374;John Wallace;302
+375;Cindy Ibarra;303
+376;Olivia Jackson;304
+377;Scott Torres;305
+378;Brian Mills;306
+379;Kristine Brown;307
+380;Drew Jackson;308
+381;Stephanie Hartman;309
+382;Gerald Cook;310
+383;Amy Lawson;311
+384;Katherine Adkins;312
+385;John Ramirez;313
+386;Thomas Gonzalez;314
+387;Jennifer Higgins;315
+388;Lori Thornton;316
+389;Garrett Giles;317
+390;Luke Garcia Jr.;318
+391;Marvin Austin;319
+392;Paula Rice;320
+393;Kelly Potter;321
+394;Stephanie Huffman;322
+395;Felicia Reid;323
+396;Mr. John Mcdaniel;324
+397;Donna Williams;325
+398;Shaun Mason;326
+399;Nicole Richards;327
+400;Noah Parker;328
+401;Tiffany King;329
+402;John Brown;330
+403;Nicole Mcfarland;331
+404;Alexander Edwards;332
+405;Amber Cooper;333
+406;Christian Matthews;334
+407;Kenneth Wyatt;335
+408;Justin Ayala;336
+409;Jessica Santos;337
+410;Thomas Macdonald;338
+411;Micheal Montgomery;339
+412;Michael Martin;340
+413;Katherine York;341
+414;Kathy Walters;342
+415;William Ingram;343
+416;Andrew Patterson;344
+417;Christina Woods;345
+418;Pedro Montgomery;346
+419;Christopher Gray;347
+420;Charles Castillo;348
+421;Adam Alvarez;349
+422;Michael Davidson;350
+423;Samuel Walker;351
+424;Paul Johnson;352
+425;Amanda Rodriguez;353
+426;Sherry Garcia;354
+427;Carrie Wright;355
+428;James Walker;356
+429;Matthew Bush;357
+430;Michael Smith;358
+431;Donna Stanley;359
+432;Justin Salinas;360
+433;Christopher Roberts;361
+434;Patricia Graham;362
+435;Brittany Johnson;363
+436;Tanner Hill;364
+437;Todd Rice;365
+438;Megan Warren;366
+439;Spencer Reed;367
+440;Billy Cochran;368
+441;Tyler Ray;369
+442;Lauren Jenkins;370
+443;Jo Friedman;371
+444;David Murphy;372
+445;Shawn Contreras;373
+446;Mary York;374
+447;Lisa Carter;375
+448;Matthew Goodwin;376
+449;David Bennett;377
+450;Eric Snyder;378
+451;Tommy Fernandez;379
+452;Sierra Thompson;380
+453;Spencer Harper;381
+454;Julia Reed;382
+455;Kristin Hobbs;383
+456;Susan Valencia;384

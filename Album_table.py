@@ -3,7 +3,7 @@ from faker import Faker
 fake = Faker()
 
 def retrieve_All():
-    conn = psycopg2.connect("dbname=kappatalism user=postgres host =localhost")
+    conn = psycopg2.connect("dbname=proyecto user=postgres host =localhost password = admin")
     cur = conn.cursor()
     concat = '"Album"'
     query = "SELECT *"+"from"+concat+";"
@@ -16,7 +16,7 @@ def retrieve_All():
     conn.close()
 #retrieve_All()
 def retrieve_Id():
-    conn = psycopg2.connect("dbname=kappatalism user=postgres host =localhost")
+    conn = psycopg2.connect("dbname=proyecto user=postgres host =localhost password = admin")
     cur = conn.cursor()
     concat = '"Album"'
     name = '"AlbumId"'
@@ -31,7 +31,7 @@ def retrieve_Id():
 #retrieve_Id()
 
 def retrieve_Last_Id():
-    conn = psycopg2.connect("dbname=kappatalism user=postgres host =localhost")
+    conn = psycopg2.connect("dbname=proyecto user=postgres host =localhost password = admin")
     cur = conn.cursor()
     concat = '"Album"'
     name = '"AlbumId"'
@@ -46,7 +46,7 @@ def retrieve_Last_Id():
     return clean
 
 def retrieve_Last_ArtistId():
-    conn = psycopg2.connect("dbname=kappatalism user=postgres host =localhost")
+    conn = psycopg2.connect("dbname=proyecto user=postgres host =localhost password = admin")
     cur = conn.cursor()
     concat = '"Album"'
     name = '"ArtistId"'
@@ -61,7 +61,7 @@ def retrieve_Last_ArtistId():
     return clean
 
 def retrieve_Title():
-    conn = psycopg2.connect("dbname=kappatalism user=postgres host =localhost")
+    conn = psycopg2.connect("dbname=proyecto user=postgres host =localhost password = admin")
     cur = conn.cursor()
     concat = '"Album"'
     name = '"Title"'
@@ -75,7 +75,7 @@ def retrieve_Title():
     conn.close()
 #retrieve_Title()
 def retrieve_ArtistId():
-    conn = psycopg2.connect("dbname=kappatalism user=postgres host =localhost")
+    conn = psycopg2.connect("dbname=proyecto user=postgres host =localhost password = admin")
     cur = conn.cursor()
     concat = '"Album"'
     name = '"ArtistId"'
@@ -91,7 +91,7 @@ def retrieve_ArtistId():
 def Insert_Album():
     album_id = retrieve_Last_Id()
     artist_id = retrieve_Last_ArtistId()
-    conn = psycopg2.connect("dbname=kappatalism user=postgres host =localhost")
+    conn = psycopg2.connect("dbname=proyecto user=postgres host =localhost password = admin")
     cur = conn.cursor()
     concat = '"Album"'
     field1 = '"AlbumId"'

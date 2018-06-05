@@ -6,7 +6,7 @@ import random
 import string
 
 def retrieve_last_customer():
-    conn = psycopg2.connect("dbname=kappatalism user=postgres host =localhost")
+    conn = psycopg2.connect("dbname=proyecto user=postgres host =localhost password = admin")
     cur = conn.cursor()
     concat = '"Customer"'
     name = '"CustomerId"'
@@ -22,7 +22,7 @@ def retrieve_last_customer():
     return clean
 
 def retrieve_last_employee():
-    conn = psycopg2.connect("dbname=kappatalism user=postgres host =localhost")
+    conn = psycopg2.connect("dbname=proyecto user=postgres host =localhost password = admin")
     cur = conn.cursor()
     concat = '"Employee"'
     name = '"EmployeeId"'
@@ -40,7 +40,7 @@ def retrieve_last_employee():
 
 
 def insert_customers():
-    conn = psycopg2.connect("dbname=kappatalism user=postgres host =localhost")
+    conn = psycopg2.connect("dbname=proyecto user=postgres host =localhost password = admin")
     cur = conn.cursor()
     concat = '"Customer"'
     field1 = '"CustomerId"'
@@ -98,5 +98,5 @@ def insert_customers():
     #print ("\nInsercion hecha con exito\n")
     conn.commit()
     conn.close()
-#insert_customers()
+insert_customers()
     

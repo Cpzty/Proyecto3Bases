@@ -3,11 +3,11 @@
 import psycopg2
 from random import randint
 def retrieve_Last_TrackId():
-    conn = psycopg2.connect("dbname=kappatalism user=postgres host =localhost")
+    conn = psycopg2.connect("dbname=proyecto user=postgres host =localhost password = admin")
     cur = conn.cursor()
     concat = '"Track"'
     name = '"TrackId"'
-    query = "SELECT"+name+ "from"+concat+"ORDER BY"+name+" desc limit 1;"
+    query = "SELECT"+name+ "from"+concat+"ORDER BY RANDOM() desc limit 1;"
     cur.execute(query)
     rows = cur.fetchall()
     clean = str(rows[0]).replace('(','')
@@ -18,7 +18,7 @@ def retrieve_Last_TrackId():
     return clean
 
 def retrieve_Last_PlaylistTrackId():
-    conn = psycopg2.connect("dbname=kappatalism user=postgres host =localhost")
+    conn = psycopg2.connect("dbname=proyecto user=postgres host =localhost password = admin")
     cur = conn.cursor()
     concat = '"Playlist"'
     name = '"PlaylistId"'
@@ -39,7 +39,7 @@ def retrieve_Last_PlaylistTrackId():
 
 
 def Insert_Ptrack():
-    conn = psycopg2.connect("dbname=kappatalism user=postgres host =localhost")
+    conn = psycopg2.connect("dbname=proyecto user=postgres host =localhost password = admin")
     cur = conn.cursor()
     concat = '"PlaylistTrack"'
     field1 = '"PlaylistId"'
@@ -48,6 +48,7 @@ def Insert_Ptrack():
     id2_range = retrieve_Last_TrackId()
     id1 = str(randint(1,int(id1_range)-1))
     id2= str(randint(1,int(id2_range)-1))
+    id2= str(id2_range)
     query = "INSERT INTO "+concat+"("+field1+","+field2+")"+"VALUES("+id1+","+id2+") ;"
     cur.execute(query)
     #print ("\nInsercion hecha con exito\n")
